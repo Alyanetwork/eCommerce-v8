@@ -198,3 +198,4 @@ public function update(Request $request, $id)
     $store->update($request->only('name', 'slug'));
     return redirect()->route('stores.index');
 }
+Bu dökümantasyon ile çoklu mağaza entegrasyonuna sahip projeyi adım adım geliştirebilir, yapılandırabilir ve yönetebilirsiniz.
